@@ -1,0 +1,40 @@
+.AccoutList{
+    width: 200px;
+    margin-top: 55px;
+    margin-right: 210px;
+    background-color: rgb(36, 31, 31);
+    border: 1px solid white;
+    border-radius: 10px 0 10px 10px;
+    position: absolute;
+    z-index: 1;
+}
+.AccoutList ul{
+    list-style: none;
+    padding: 5px;
+}
+.AccoutList li{
+    margin-top: 10px;
+    border-bottom: 1px solid white;
+    color:antiquewhite
+}
+.AccoutList li:hover{
+    background: linear-gradient(90deg, rgb(205, 203, 203), rgb(68, 68, 68));
+    border-radius: 10px ;
+    font-weight: 400;
+    cursor: pointer;
+    /* padding: 2px; */
+}
+.AccoutList .NavLink:hover{
+    color: black !important;
+}
+.AccoutList h2{
+    width: 190px;
+    text-align: end;
+    cursor: pointer;
+}
+.AccoutList .NavLink{
+    width: 100px !important;
+    color: rgb(247, 247, 247) !important;
+    background-color: transparent !important;
+    text-decoration: none !important;
+}

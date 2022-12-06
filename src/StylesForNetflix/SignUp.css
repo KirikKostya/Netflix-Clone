@@ -1,0 +1,16 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Container{
+    width: 450px;
+    border-radius: 30px;
+    margin-top: 50px;
+    opacity: 85%;
+    background-color: rgb(21, 20, 20);
+}
+.eyeBtn{
+    background-color: transparent;
+    border: 0;
+}

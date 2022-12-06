@@ -1,0 +1,61 @@
+.containerForSidebar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    box-shadow: 0px 0px 10px 10px black;
+}
+.searchInput {
+    width: 260px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgb(92, 92, 92);
+    color: rgb(214, 214, 214);
+    margin: 0 10px;
+}
+.BtnSearch{
+    height: 40px;
+}
+.imgSidebar{
+    width: 150px;
+    height: 75px;
+}
+.forAccout{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    margin-right: 20px;
+}
+.bell{
+    width: 40px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.myAccount{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal !important;
+    border: 2px solid rgb(245, 73, 73);
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.myAccountList li{
+    border-bottom: 1px solid white;
+}
+.ForMyAccount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.close{
+    display: none;
+}

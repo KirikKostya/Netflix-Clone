@@ -1,0 +1,28 @@
+
+.container {
+    overflow-y: hidden;
+    padding-top: 25px;
+    border-radius: 25% 25% 0 0;
+    margin: 10px 15px ;
+    width: 1000px;
+  }
+  .scrollField {
+    display: flex;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 25px;
+    column-gap: 10px;
+
+  }
+  .scrollItem {
+    height: 85px;
+    width: 150px;
+    display: flex;
+    margin: 0 5px;
+    text-decoration: none;
+    border-radius: 30px;
+    cursor: pointer;
+    scroll-snap-align: start;
+  }
+  .scrollItem:hover{
+    border: 3px solid rgba(255, 0, 0, 0.648);
+  }

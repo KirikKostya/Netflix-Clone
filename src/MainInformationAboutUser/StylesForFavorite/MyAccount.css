@@ -1,0 +1,81 @@
+.body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #222020;
+}
+.body .NavLinkMA{
+    border-radius: 5px !important;
+    background-color: #3b3b3b !important;
+    color: white !important;
+    text-decoration: none !important;
+    border: 2px solid rgb(232, 9, 9) !important;
+    padding: 0 5px 0 0 !important;
+    position: absolute;
+    margin-left: -1150px;
+    margin-top: -500px;
+}
+.body .NavLinkMA:hover{
+    color: black !important;
+}
+.containerForProfile{
+    width: 500px;
+    height: 550px;
+    border: 2px solid rgb(254, 213, 213);
+    border-radius: 20px;
+    background-color: rgb(23, 23, 23);
+}
+.containerForProfile .header{
+    text-align: center;
+    color: #d61616;
+    text-shadow: 1px 1px 3px #dd0b0b;
+    margin-top: 20px;
+}
+.containerForProfile .info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.info .emoji{
+    text-align: center;
+    position:absolute;
+    width: 65px;
+    height: 65px;
+    margin-top: -55px;
+    margin-left: 220px;
+    background-color: #222020;
+    border-radius: 50%;
+    border: 2px solid white;
+    text-shadow: none !important;
+}
+.info .mail{
+    text-align: center;
+    color: rgb(199, 246, 255);
+    font-style: italic;
+}
+.info .mini-info{
+    display: flex;
+    flex-direction: row;
+    margin: 40px 70px;
+    justify-content: space-between;
+}
+.mini-info h5{
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(215, 215, 215);
+}
+.body .Favorite{
+    background-color: transparent;
+    color: rgb(215, 215, 215);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    margin: 0 30px;
+    padding: 0;
+}
+.body .Favorite:hover{
+    color:rgb(101, 101, 101)
+}

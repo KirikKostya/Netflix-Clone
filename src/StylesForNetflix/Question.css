@@ -1,0 +1,26 @@
+.close{
+    display: none;
+}
+.BTN{
+    width: 900px;
+    height: 60px;
+    background-color: rgb(60, 60, 60);
+    color: rgb(249, 249, 249);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: start;
+    padding: 10px 20px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.active{
+    border: 2px solid rgb(188, 24, 24);
+}
+.answer{
+    width: 900px;
+    background-color: rgb(72, 72, 72);
+    color: white;
+    margin: 3px;
+    padding: 10px;
+}

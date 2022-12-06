@@ -1,0 +1,95 @@
+.ContainerForMainField{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0e0d0d;
+    padding-top: 10px;
+    margin: 0;
+}
+.containerForFilms{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 450px;
+}
+.bg-image{
+    width: calc(100vw - 250px);
+    height: 500px;
+    /* margin-right: 100px; */
+    border-radius: 20px;
+    margin-right: 70px;
+    opacity: 70%;
+    position: relative;
+}
+.information{
+     display: flex;
+     flex-direction: row-reverse;
+}
+.TextForFilms{
+    position: absolute;
+    z-index: 1;
+    margin-right: 550px;
+    margin-top: 5px;
+    /* width: 680px; */
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: rgba(2, 2, 2, 0.427) ;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px rgba(206, 206, 206, 0.281);
+}
+
+.TextForFilms .paragraph-dark{
+    width: 500px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.854);
+    font-weight: 500;
+    padding: 0;
+    z-index: 0;
+    font-size:smaller;
+}
+.TextForFilms .paragraph-white{
+    width: 500px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.909);
+    font-weight:500;
+    padding: 0;
+    font-size:smaller;
+}
+.headerFilm{
+    color: rgba(182, 17, 17, 0.934);
+    text-decoration: underline;
+    text-align: center;
+}
+.Btn-change{
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 0 5px;
+    background-color: red;
+    color: rgb(0, 0, 0);
+}
+.BtnsBlock{
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+    position: absolute;
+    margin-left: 500px;
+}
+.informationPar{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+} 
+.informationPar h3{
+    width: 100px;
+    color: rgb(252, 252, 252);
+    margin: 0 10px;
+}
+.close{
+    display: none;
+}

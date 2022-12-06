@@ -1,0 +1,71 @@
+.modalContainer{
+    width: 600px;
+    /* height: 600px; */
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 0 20px 20px 40px;
+    position:fixed;
+    margin-left: 350px;
+    /* margin-top: 30px; */
+    background-color: rgb(25, 23, 23);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modalContainer .close{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent !important;
+    border: none;
+    /* border-radius: 50%; */
+    color: red;
+    width: 40px;
+    height: 40px;
+    font-weight: 1000;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -550px;
+    size: 20px;
+}
+.modalContainer .close:hover{
+    border: 2px solid rgb(3, 3, 3);
+    border-radius: 50%;
+
+}
+.modalContainer .addFavorite{
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    margin-top: 5px;
+    margin-right: -530px;
+    color: rgb(233, 32, 32);
+    font-weight: 700;
+
+}
+.modalContainer .addFavorite:hover{
+    color: rgb(54, 223, 16);
+}
+.modalContainer .header{
+    color: rgb(183, 9, 9);
+    text-shadow: 2px 2px 2px rgb(107, 0, 18);
+    text-decoration: underline;
+    text-align: center;
+}
+.modalContainer .info{
+    display: flex;
+    color: rgb(196, 100, 100);
+    font-weight: bold;
+    text-shadow:2px 3px 2px rgb(99, 3, 3);
+}
+.info p{
+    margin: 20px 65px ;
+    text-align: center;
+}
+.modalContainer .description{
+    text-align: center;
+    color: rgb(213, 213, 213);
+    text-shadow: 1px 1px 1px rgb(140, 83, 83);
+}
+

@@ -1,0 +1,11 @@
+h1{
+    color: rgb(255, 0, 0) !important;
+    font-weight: bold;
+    text-shadow: red 1px 1px 2px ;
+}
+a{
+    border-radius: 20px;
+    background-color: rgb(211, 2, 2);
+    margin: 0px 8px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
